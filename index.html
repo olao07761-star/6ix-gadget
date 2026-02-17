@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>6ix Gadgets - Buy, Sell & Swap</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: "#ec7f13",
+                50: "#fff8ed",
+                100: "#ffefd6",
+                200: "#fedba8",
+                300: "#fdbf73",
+                400: "#fb9d3c",
+                500: "#ec7f13",
+                600: "#dd6209",
+                700: "#b74509",
+                800: "#913510",
+                900: "#752d11",
+              },
+              background: {
+                light: "#f8f7f6",
+                dark: "#221910",
+              },
+              surface: {
+                light: "#ffffff",
+                dark: "#2d241b",
+              }
+            },
+            fontFamily: {
+              sans: ["Inter", "sans-serif"],
+              display: ["Space Grotesk", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.41.0",
+    "recharts": "https://esm.sh/recharts@^3.7.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.570.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-100 font-sans antialiased">
+    <div id="root"></div>
+  </body>
+</html>
